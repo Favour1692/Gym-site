@@ -1,11 +1,11 @@
 import React, { ReactNode } from "react";
 import { Metadata } from "next";
-import Navbar from "@/Components/Navbar";
-import Footer from "@/Components/Footer";
-import { ThemeProvider } from "@/Components/theme-provider";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 import { sourceSans } from "@/fonts";
-import AosInit from "@/Components/AosInit";
+import AosInit from "@/components/AosInit";
 
 interface LayoutProp {
   children: ReactNode;
