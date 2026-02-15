@@ -8,7 +8,7 @@ const Stats = () => {
     <div className="pt-10 lg:pt-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <h2>Our Stats</h2>
-        <p>Numbers don't lie!</p>
+        <p>Numbers don&apos;t lie!</p>
         <div className="w-[90%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-4 sm:place-items-center gap-4">
           <div className="dark:text-burnt">
             <CountUp

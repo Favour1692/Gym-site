@@ -1,9 +1,7 @@
-import { anton } from "@/fonts";
 import { Button } from "@/components/ui/button";
-import { landingBg, benefits, offerbg, overlay } from "@/constants";
 import { Card, CardContent } from "@/components/ui/card";
-import { FaCheck } from "react-icons/fa";
 import Stats from "@/components/Stats";
+import { benefits, offerbg } from "@/constants";
 import Testimonials from "@/components/Testimonials";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -44,7 +42,7 @@ const Home = () => {
             >
               Join a community that pushes limits, builds confidence and
               transforms lives. Starting fresh or leveling up, whatever level of
-              fitness you're at, your journey begins here.
+              fitness you&apos;re at, your journey begins here.
             </p>
             <div className="flex gap-4 mt-2 mx-auto xl:mx-0 items-center">
               <Link href="/contact">
@@ -88,10 +86,11 @@ const Home = () => {
               </div>
 
               <p data-aos="fade-up" data-aos-delay="200">
-                We're not just a gym, we're a community. Our mission is to help
-                you train with purpose, push your limits, and become your
-                strongest self inside and out. Come sweat with us, grow with us
-                and become the strongest, fittest and best version of yourself
+                We&apos;re not just a gym, we&apos;re a community. Our mission
+                is to help you train with purpose, push your limits, and become
+                your strongest self inside and out. Come sweat with us, grow
+                with us and become the strongest, fittest and best version of
+                yourself
               </p>
               <div className="text-left">
                 <Link href="/about">
@@ -183,10 +182,10 @@ const Home = () => {
                 At our gym, we offer a variety of workout programs designed to
                 help you reach your goals and stay motivated. From strength and
                 conditioning to HIIT and cardio burnouts, our sessions are built
-                to challenge and inspire. You'll also find functional mobility,
-                yoga and group fitness classes for a balanced approach, along
-                with personal training and nutrition coaching to keep your
-                progress on track inside and outside the gym.
+                to challenge and inspire. You&apos;ll also find functional
+                mobility, yoga and group fitness classes for a balanced
+                approach, along with personal training and nutrition coaching to
+                keep your progress on track inside and outside the gym.
               </p>
 
               <Link href={"/programs"} className="text-left">
@@ -218,11 +217,11 @@ const Home = () => {
             <div className="flex flex-col gap-2 justify-center text-fog">
               <p>
                 Level up for less. Commit to ifitness gym today at a discounted
-                price. We're not just offering a membership, we're starting a
-                movement. Enjoy exclusive access to our programs, expert
-                coaching, and next-level community. For new members, we offer
-                these at a fraction of the price. This isn't your someday. This
-                is your now.
+                price. We&apos;re not just offering a membership, we&apos;re
+                starting a movement. Enjoy exclusive access to our programs,
+                expert coaching, and next-level community. For new members, we
+                offer these at a fraction of the price. This isn&apos;t your
+                someday. This is your now.
               </p>
               <div>
                 <h3>Join now and enjoy:</h3>
@@ -319,6 +318,6 @@ const Home = () => {
   );
 };
 
-// bg-[url('/shattered-dark.png')] dark:bg-[url(/shattered.png)] bg-repeat
+// bg-[url(&apos;/shattered-dark.png')] dark:bg-[url(/shattered.png)] bg-repeat
 
 export default Home;

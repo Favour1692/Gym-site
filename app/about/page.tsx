@@ -28,11 +28,12 @@ const About = () => {
                 training space with a big dream has grown into a vibrant hub for
                 people of all walks: newbies, heavy lifters, runners, yogis, and
                 everyone in between. We believe strength comes in many forms;
-                persistence, progress, and showing up even when it's hard.
-                That's the energy we've built this place on. More than just
-                equipment or classes, we're a space where people show up for
-                themselves—and for each other. This is more than a gym. This is
-                your start line. And we can't wait to see how far you'll go.
+                persistence, progress, and showing up even when it&apos;s hard.
+                That&apos;s the energy we&apos;ve built this place on. More than
+                just equipment or classes, we&apos;re a space where people show
+                up for themselves—and for each other. This is more than a gym.
+                This is your start line. And we can&apos;t wait to see how far
+                you&apos;ll go.
               </p>
             </div>
             {/* image */}
@@ -79,10 +80,10 @@ const About = () => {
               </div>
 
               <p data-aos="fade-up" data-aos-delay="400">
-                We're here to make fitness feel less intimidating and more like
-                coming home. With expert coaching, supportive energy, and real
-                results, we help people build strength that lasts inside and
-                out.
+                We&apos;re here to make fitness feel less intimidating and more
+                like coming home. With expert coaching, supportive energy, and
+                real results, we help people build strength that lasts inside
+                and out.
               </p>
             </div>
           </div>
@@ -108,8 +109,8 @@ const About = () => {
               <p data-aos="fade-up" data-aos-delay="400">
                 We envision a vibrant space where confidence is cultivated,
                 limits are tested, and every win, big or small, is celebrated.
-                From first-timers to long-timers, we're building a culture where
-                progress is personal and everyone belongs.
+                From first-timers to long-timers, we&apos;re building a culture
+                where progress is personal and everyone belongs.
               </p>
             </div>
 
@@ -157,11 +158,11 @@ const About = () => {
               </div>
 
               <p data-aos="fade-up" data-aos-delay="400">
-                More than trainers, we're your fitness family. Behind every rep
-                and every milestone is a team that lives and breathes this
-                lifestyle. Our coaches don't just guide you through workouts,
-                they bring knowledge, accountability, and contagious energy into
-                every session.
+                More than trainers, we&apos;re your fitness family. Behind every
+                rep and every milestone is a team that lives and breathes this
+                lifestyle. Our coaches don&apos;t just guide you through
+                workouts, they bring knowledge, accountability, and contagious
+                energy into every session.
               </p>
             </div>
           </div>

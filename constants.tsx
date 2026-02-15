@@ -30,18 +30,13 @@ export const navdata: navlinks[] = [
   },
 ];
 
-export const landingBg: bg = {
-  backgroundImage: "url('/homeLanding.webp')",
-  backgroundPosition: "center center",
-  backgroundSize: "cover",
-  backgroundRepeat: "no-repeat",
-};
 export const offerbg: bg = {
   backgroundImage: "url('/offer.webp')",
   backgroundPosition: "top center",
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
 };
+
 export const overlay: bg = {
   backgroundImage: "url('/overlay2.jpg')",
   backgroundRepeat: "repeat",

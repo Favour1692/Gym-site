@@ -29,7 +29,7 @@ const Mobilemenu = ({ open, handleClick }: MobileMenuProps) => {
             onClick={handleClick}
           />
           {/* menu panel */}
-          <div className="pt-15 absolute top-0 left-0 w-full h-[40vh] bg-burntblue text-fog shadow-lg flex flex-col gap-8 pl-6 sm:pl-8 z-20 font-semibold">
+          <div className="pt-15 absolute top-0 left-0 w-full h-[50vh] bg-burntblue text-fog shadow-lg flex flex-col gap-8 pl-6 sm:pl-8 z-20 font-semibold">
             {navdata.map((data) => {
               const isActive = pathname === data.href;
               return (

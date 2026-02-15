@@ -9,10 +9,10 @@ const Programs = () => {
           <div className="mt-4">
             <h2>programs for everyone</h2>
             <p className="text-balance">
-              If you're here to build muscle, boost your stamina, drop a few
-              pounds, or just feel better in your skin, we've got a program
-              tailored for you. Each one is guided by experienced coaches and
-              built to keep you motivated from day one.
+              If you&apos;re here to build muscle, boost your stamina, drop a
+              few pounds, or just feel better in your skin, we&apos;ve got a
+              program tailored for you. Each one is guided by experienced
+              coaches and built to keep you motivated from day one.
             </p>
           </div>
 
@@ -138,7 +138,7 @@ const Programs = () => {
               <h3>personal coaching</h3>
               <p>
                 One-on-one sessions with certified coaches who tailor every
-                workout to your needs, whether you're just starting out or
+                workout to your needs, whether you&apos;re just starting out or
                 training for something big.
               </p>
             </div>
@@ -185,9 +185,9 @@ const Programs = () => {
             <div>
               <h3>nutrition and lifestyle coaching</h3>
               <p>
-                Fitness doesn't stop at the gym. Learn how to fuel your body,
-                form sustainable habits, and create balance in your routine with
-                practical, personalized guidance.
+                Fitness doesn&apos;t stop at the gym. Learn how to fuel your
+                body, form sustainable habits, and create balance in your
+                routine with practical, personalized guidance.
               </p>
             </div>
             {/* image */}

@@ -1,9 +1,9 @@
 import { FaClock, FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Image from "next/image";
-import Form from "@/Components/Form";
+import Form from "@/components/Form";
 import { Card, CardContent } from "@/components/ui/card";
-import FAQ from "@/Components/FAQ";
+import FAQ from "@/components/FAQ";
 import Link from "next/link";
 
 const Contact = () => {
