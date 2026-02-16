@@ -3,7 +3,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import Stats from "@/components/Stats";
 import { benefits, offerbg } from "@/constants";
 import Testimonials from "@/components/Testimonials";
-import { IoIosCheckmarkCircle } from "react-icons/io";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
