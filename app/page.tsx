@@ -211,7 +211,7 @@ const Home = () => {
 
       {/* Limited offer section */}
       <div className="mt-10 lg:mt-20" style={offerbg}>
-        <div className="w-full h-full py-10 px-4 sm:px-6 lg:px-8 bg-charcoal/40 text-fog">
+        <div className="w-full h-full py-10 px-4 sm:px-6 lg:px-8 bg-charcoal/40 text-fog backdrop-blur-sm">
           <div className="max-w-7xl mx-auto">
             <h2 className="capitalize text-darkblue">new member offer</h2>
             <div className="flex flex-col gap-2 justify-center text-fog">
@@ -225,34 +225,13 @@ const Home = () => {
               </p>
               <div>
                 <h3>Join now and enjoy:</h3>
-                <div className="flex gap-4">
-                  <p className="">
-                    A reduced monthly rate during your first 3 months
-                  </p>
-                  <IoIosCheckmarkCircle className="text-crimson text-xl" />
-                </div>
-                <div className="flex gap-4">
-                  <p className="">
-                    A complimentary personal training intro session
-                  </p>
-                  <IoIosCheckmarkCircle className="text-crimson text-xl" />
-                </div>
-                <div className="flex gap-4">
-                  <p className="">
-                    Special access to a members-only beginner bootcamp
-                  </p>
-                  <IoIosCheckmarkCircle className="text-crimson text-xl" />
-                </div>
-                <div className="flex gap-4">
-                  <p className="">
-                    Free entry to one of our signature group classes
-                  </p>
-                  <IoIosCheckmarkCircle className="text-crimson text-xl" />
-                </div>
-                <div className="flex gap-4">
-                  <p className="">A post-workout smoothie on us</p>
-                  <IoIosCheckmarkCircle className="text-crimson text-xl" />
-                </div>
+                <ul className="list-disc list-outside marker:text-crimson space-y-4 mt-2">
+                  <li>A reduced monthly rate during your first 3 months</li>
+                  <li>A complimentary personal training intro session</li>
+                  <li>Special access to a members-only beginner bootcamp</li>
+                  <li>Free entry to one of our signature group classes</li>
+                  <li>A post-workout smoothie on us</li>
+                </ul>
               </div>
             </div>
           </div>
