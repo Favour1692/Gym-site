@@ -224,7 +224,7 @@ const Home = () => {
               </p>
               <div>
                 <h3>Join now and enjoy:</h3>
-                <ul className="list-disc list-inside marker:text-crimson space-y-4 mt-2">
+                <ul className="list-disc list-outside marker:text-crimson space-y-4 mt-2 pl-6">
                   <li>A reduced monthly rate during your first 3 months</li>
                   <li>A complimentary personal training intro session</li>
                   <li>Special access to a members-only beginner bootcamp</li>
